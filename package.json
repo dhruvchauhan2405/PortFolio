@@ -1,8 +1,25 @@
 {
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
   "dependencies": {
-    "yarn": "^1.22.19"
+    "@graphcms/rich-text-react-renderer": "^0.6.1",
+    "bootstrap": "^5.2.0",
+    "graphql": "^16.6.0",
+    "graphql-request": "^5.0.0",
+    "next": "^12.2.5",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.19"
+    "eslint": "8.23.0",
+    "eslint-config-next": "12.2.5"
   }
 }
